@@ -1,0 +1,69 @@
+
+
+/* body{
+    padding: 0px 100px;
+} */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+
+}
+.nav-title{
+    display: flex;
+    gap: 10px;
+}
+.nav-title img{
+    width: 86.03px;
+height: 40.02px;
+}
+.nav-link{
+    display: flex;
+    gap: 10px;
+}
+.nav-link a{
+    text-decoration: none;
+}
+
+.about, .play{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sign{
+    background: url(../images/Group\ 14.png);
+    width: 100%;
+}
+.pic img{
+    /* padding-right: 100px; */
+    width: 100%;
+}
+.pic2 img{
+    /* padding-left: 100px; */
+    width: 100%;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.card-container div{
+    width: 100%;
+}
+
+
+
+
+
+.position{
+    position: relative;
+}
+.img2{
+    position: absolute;
+    top: 360px;
+    right: 460px;
+}
+.img4{
+    position: absolute;
+    top: 408px;
+    left: 528px;
+}

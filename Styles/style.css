@@ -94,7 +94,7 @@ body{
     width: 18px;
     height: 18px;
 }
-button{
+.button{
     padding: 21px 40px 21px 40px;
     border-radius: 48px;
     font-weight: 600;
@@ -232,6 +232,9 @@ button{
     color: white;
     align-items: center;
 }
+.career div img{
+    max-width: auto;
+}
 .career-description{
     padding-left: 50px;
 }
@@ -250,4 +253,36 @@ button{
 }
 .grid-list h6{
     margin: 10px;
+}
+.game-type{
+    padding: 120px 100px;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.game-type button{
+    display: flex;
+    gap: 5px;
+    border-radius: 50px;
+    align-items: center;
+    background-color: white;
+    border: none;
+    padding: 5px;
+}
+.game-type button h5{
+    color: rgb(11, 2, 35);
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 0;
+}
+.game-type :hover{
+    border: 2px solid rgb(255, 66, 165);
+    color: rgb(255, 66, 165);
+    /* outline: 2px solid rgb(255, 66, 165); */   
+}
+.game-type button :hover{
+    border: none;
 }

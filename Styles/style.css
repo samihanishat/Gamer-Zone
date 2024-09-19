@@ -286,3 +286,39 @@ body{
 .game-type button :hover{
     border: none;
 }
+footer{
+    background: rgb(11, 2, 35);
+    padding-bottom: 120px;
+}
+footer .nav-title{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.footer-text{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-term{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 500;
+}
+#copyright{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}

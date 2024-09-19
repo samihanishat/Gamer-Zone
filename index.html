@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamer Zone</title>
     <link rel="stylesheet" href="Styles/style.css">
+    <script src="https://kit.fontawesome.com/d121e1d356.js" crossorigin="anonymous"></script>
 </head>
 <body class="work-sans">
     <nav class="nav">
@@ -16,7 +17,7 @@
             <a href="">About Us</a>
             <a href="">Developers</a>
             <div class="follow">
-                <a href="">Follow Us On</a>
+                <a href="" class="lineargtext">Follow Us On</a>
                 <img src="images/youtube-brands-solid.svg" alt="" width="33.29px" height="24px">
                 <img src="images/tiktok-brands-solid (1).svg" alt="" width="33.29px" height="24px">
             </div>             
@@ -24,9 +25,10 @@
     </nav>
     <section class="about">
         <div class="sign">
-            <div class="sign1">
+            <div class="sign1" style="position: relative;">
                 <h4>Play Like The</h4>
-                <h2 class="lgtext"> G.O.A.T.</h2>
+                <h2 class="lgtext" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> G.O.A.T.</h2>
+                <!-- <h2 class="lgtext goat-overlay" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: absolute;" > G.O.A.T.</h2> -->
                 <div class="">
                     <img src="images/circle-play-regular.svg" alt="">
                     <p>1-Click instant play</p>
@@ -84,17 +86,27 @@
         </section>
     </section>
     <section class="play">
-        <div>
+        <div class="description">
+            <!-- <div class="description1"> -->
+                <h3 class="title">
+                     <!-- <span style="background: linear-gradient(rgb(249, 72, 178),rgba(83, 76, 100, 1.00)); background-clip: text; -webkit-text-fill-color: transparent;">Play Instantly,</span>  -->
+                      <span style="color: rgba(249, 72, 178, 1.00);">Play Instantly,</span>
+                     <br> No Downloads <br> No Installs.</h3>
+                <p>Play games online for free without downloading. Just click the Play button and play instantly in your browser.</p>
+            <!-- </div>            -->
         </div>
         <div class="position">
-            <img src="images/Rectangle 55.png" alt="">
+            <img src="images/Rectangle 55.png" alt="" width="100%">
             <img src="images/Rectangle 66.png" alt="" class="img2">
         </div>
         <div class="position">
-            <img src="images/Rectangle 67.png" alt="">
+            <img src="images/Rectangle 67.png" alt="" width="100%">
             <img src="images/Rectangle 78.png" alt="" class="img4">
         </div>
-        <div></div>
+        <div class="description description1">
+            <h3 class="title"> <span style="color: rgba(249, 72, 178, 1.00);">Play Games</span> <br> <span style="color: rgba(135, 88, 241, 1.00);">Online</span> Anywhere, <br> Anytime!</h3>
+            <p>PC. dad’s phone, mom’s tablet, or your Chromebook, with Gamer you can play your favorite games online for free, any time, anywhere , on any device.</p>
+        </div>
     </section>
 </body>
 </html>

@@ -6,15 +6,18 @@
     font-weight: 400;
     font-style: normal;
   }
-/* body{
-    padding: 0px 100px;
-} */
+body{
+    /* padding: 0px 100px; */
+    font-size: 16px;
+}
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
+    /* padding: 0px 100px; */
     /* height: 56px; */
     align-items: center;
+    max-width: 1200px;
+    margin: auto;
 }
 .nav-title{
     display: flex;
@@ -50,10 +53,18 @@
     /* justify-content: space-between; */
     gap: 10px;
 }
+/* .lineargtext{
+    background-color: red;
+    background-clip: text;
+    color: transparent;
+} */
 
 .about, .play{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+.about{
+    box-shadow: 0px 4px 10px 5px rgba(249, 72, 178, 0.078)  inset;
 }
 .sign{
     background: url(../images/Group\ 14.png);
@@ -123,11 +134,20 @@ button{
     background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
  -webkit-background-clip:text;
  -webkit-text-fill-color:transparent;
+ background-clip: text;
+ text-shadow: 1px 1px 1px   rgba(59, 53, 57, 0.19);
 }
+/* .goat-overlay{ */
+    /* text-shadow: none; */
+    /* top: 150%;
+} */
+
+
 .title{
     font-size: 3rem;
     font-weight: 700;
     margin: 0;
+    color: rgb(11, 2, 35);
 }
 .know h6{
     font-size: 2rem;
@@ -164,18 +184,40 @@ button{
 
 
 
-
-
+.play{
+    gap: 150px;
+    /* justify-items: stretch; */
+}
+.play div{
+    width: 90%;
+}
 .position{
     position: relative;
 }
 .img2{
     position: absolute;
-    top: 360px;
-    right: 460px;
+    /* top: 360px; */
+    top: 22.5rem;
+    /* right: 460px; */
+    right: 28.75rem;
 }
 .img4{
     position: absolute;
-    top: 408px;
-    left: 528px;
+    /* top: 408px; */
+    top: 25.5rem;
+    /* left: 528px; */
+    left: 33rem;
+}
+.description{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description p{
+    width: 60%;
+}
+.description1{
+    text-align: left;
 }
